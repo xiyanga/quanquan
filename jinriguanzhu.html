@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>今日关注</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/guanzhu.css">
+</head>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.cookie.js" type="text/javascript"></script>
+<script src="js/newsData.js"></script>
+<script src="js/guanzhu.js"></script>
+<body>
+<!--头部-->
+    <div class="header"></div>
+<!--新闻部分-->
+    <div class="news">
+        <div class="news_logo">
+            <div class="nlogo"></div>
+            <span>今日新闻</span>
+        </div>
+        <div class="time">
+            <div class="time_span">
+                <span id="year"></span>
+                <span id="week"></span>
+                <span id="address">北京</span>
+                <img src="img/news/sun.png" alt="">
+                <span id="temperature">16℃</span>
+            </div>
+        </div>
+        <!--新闻正文-->
+        <div class="news_content">
+            <div id="button">
+                加载更多
+            </div>
+
+            <div class="news_title">
+                <h2>习近平出席金砖国家领导人会晤并发表重要讲话</h2>
+                <div class="dian"></div>
+                <ul>
+                    <li>“三证合一”到“五证合一” 总理推商事制度改革升级</li>
+                </ul>
+
+            </div>
+
+            <div class="list_con">
+
+            </div>
+        <div class="bbb" style="display: none">
+            <div class="news_text" indexs="$index$">
+                <div class="dian"></div>
+                <div class="text_img">
+                    <img  id="news_img" src="$newsimg$" alt="">
+                </div>
+                <p id="new_title">$newstitle$</p>
+                <span id="new_txt">$newstxt$</span>
+            </div>
+        </div>
+
+        </div>
+        <!--广告-->
+        <div class="advertisement">
+            <div class="guangggao">
+                <div class="gg_txt">广告</div>
+                <div class="gb"></div>
+                <span>圈圈网上市赢好礼</span>
+            </div>
+        </div>
+    </div>
+<!--底部-->
+    <div class="bottom"></div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+*{margin: 0;  padding: 0;
+    font-family: "微软雅黑";
+    tap-highlight-color: transparent; /*解决点击高亮的bug*/
+    -webkit-tap-highlight-color: transparent;
+    /*兼容webkit 手机的内核就是iwebkit*/
+    box-sizing: border-box;
+    /*内边距*/
+    -webkit-box-sizing: border-box;
+    /*//兼容webkit*/
+}
+/*body{font-size:62.5%;}      /!* font-size 62.5% = 10px =1rem *!/*/
+html{
+    min-height: 100%;
+}
+body{
+    min-height: 100%;
+    margin: 0 auto;
+    max-width: 640px;
+    min-width:310px;
+    background: url("../img/mh.jpg") no-repeat top left;
+    background-size: contain;
+}

@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: #fff !important;
+
+}
+.bottom{
+    height: 400px;
+}
+.news{
+    width: 1100px;
+    margin:0 auto;
+    /*min-height: 400px;*/
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    padding-bottom: 80px;
+}
+.news>.news_logo{
+    padding-top: 20px;
+    width: 1100px;
+    height: 80px;
+    /*background: darkkhaki;*/
+}
+.news>.news_logo>.nlogo{
+    width: 80px;
+    height: 80px;
+    float: left;
+    background: url("../img/news/news_logo.png");
+    background-size: contain;
+}
+.news_logo>span{
+    font-size: 30px;
+    line-height: 80px;
+    font-weight: bold;
+    color: #555;
+}
+/*时间更新*/
+.news>.time{
+    font-size: 14px;
+    color: #404040;
+    width: 1000px;
+    margin: 20px auto 0;
+    height: 21px;
+    background: url("../img/news/jl.png") 0 2px no-repeat;
+    padding-left: 30px;
+}
+.news>.time>.time_span{
+
+    height: 21px;
+
+}
+.time_span>span{
+    margin-right: 15px;
+}
+.news_content{
+    width: 700px;
+    position: relative;
+    /*background: darkgoldenrod;*/
+    float: left;
+    padding: 40px;
+
+    padding-bottom: 80px;
+    box-sizing: border-box;
+
+}
+.news>.txt{
+    width: 800px;
+    /*background: darkkhaki;*/
+    padding: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+}
+.txt>h2{
+    border-left:4px solid #e23838;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+.txt>h3{
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.new_hr{
+    border-bottom: 1px dotted #dbdbdb;
+    padding-bottom: 10px;
+}
+.new_hr>span{
+    margin-right: 20px;
+    font-size: 14px;
+}
+.zhengwen{
+    padding-top: 50px;
+    width: 700px;
+    float: left;
+}
+.zhengwen>img{
+    max-width: 600px;
+    margin-right: 20px;
+    float: left;
+    max-height: 400px;
+}
+.zhengwen>p{
+    text-indent:2em;
+    font-size: 16px;
+    line-height: 28px;
+}
+/*新闻款讯*/
+.guanggao_right{
+    width: 300px;
+    height: 700px;
+    /*background: darkgoldenrod;*/
+    float: left;
+}
+.guanggao_right>h3{
+    margin-bottom: 20px;
+}
+.ggsmall{
+    width: 140px;
+    height: 120px;
+    /*background: darkkhaki;*/
+    overflow: hidden;
+    margin: 0 10px 10px 0;
+    position: relative;
+    float: left;
+}
+.ggsmall>img{
+    width: 140px;
+    height: 80px;
+    cursor: pointer;
+}
+.ggsmall>a{
+    font-size: 12px;
+    line-height: 1.5;
+    display: block;
+}
+.ggsmall>a:hover{
+    color: red;
+    text-decoration: underline;
+}

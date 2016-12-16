@@ -1,0 +1,453 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+    font-family: 'Microsoft Yahei',Tahoma,Helvetica,Arial,sans-serif;
+}
+html,body{
+    min-width: 320px;
+    max-width: 640px;
+    max-height: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#musicBox{
+    position: absolute;
+    right: 0.625rem;
+    top:0.625rem;
+    z-index: 999;
+    width: 0.9375rem;
+    height: 0.9375rem;
+    background: url("../img/music.svg") no-repeat;
+    background-size: contain;
+}
+.rotate{
+    animation: rotate 1.5s linear 0s infinite;
+}
+@keyframes rotate {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
+.box{
+    width: 100%;
+    height: 100%;
+}
+.box .slide_ul{
+    height: 800%;
+    width: 100%;
+    transform: translateY(-12.5%);
+}
+.box .slide_ul .slide_li{
+    list-style: none;
+    height: 12.5%;
+}
+/* one 屏*/
+.one{
+    position: relative;
+    background: #000 url("../img/bg1.png");
+    overflow: hidden;
+}
+.kong {
+    height: 1.5625rem;
+}
+.kong2 {
+    height: 2.1875rem;
+}
+.kong3{
+    height: 1rem;
+}
+.img_bk {
+    width: 4.6875rem;
+    margin: 0 auto;
+}
+.img_bk img {
+    width: 100%;
+    animation: touxiang_bk 15s linear 0s infinite;
+}
+@keyframes touxiang_bk {
+    0% {
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+.touxiang{
+    display: block;
+    width: 3.6875rem;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    margin-left: -1.84375rem;
+    opacity: 0;
+}
+.content{
+    width: 100%;
+    position: relative;
+}
+.p1 {
+    color: #00ffff;
+    font-size: 1.25rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 0.9375rem;
+    opacity: 0;
+}
+.line{
+    width: 6.875rem;
+    height: 0.0625rem;
+    background: #00ffff;
+    margin: 0 auto;
+    opacity: 0;
+}
+.p2{
+    width: 100%;
+    color: #ccc;
+    font-size: 0.75rem;
+    line-height: 1.85rem;
+    text-align: center;
+    opacity: 0;
+}
+.jt{
+    width:0.75rem;
+    height:0.21875rem;
+    position: relative;
+    margin:0 auto;
+    opacity: 0;
+    animation: aa 1.5s linear 0s infinite;
+    z-index: 999;
+}
+@keyframes aa {
+    0%{opacity: 0;margin-top:1rem;}
+    60%{opacity: 1;margin-top:0.7rem;}
+    70%{opacity: 1;margin-top:0.7rem;}
+    100%{opacity: 0;margin-top:0.5rem;}
+}
+.left{
+    width:0.156250rem;
+    height:0.4375rem;
+    background:#fff;
+    position: absolute;
+    left: 0.1875rem;
+    transform: rotateZ(45deg);
+}
+.right{
+    width:0.156250rem;
+    height:0.4375rem;
+    background:#fff;
+    position: absolute;
+    right: 0.1875rem;
+    transform: rotateZ(-45deg);
+}
+
+/* two 屏*/
+.two{
+    position: relative;
+    background: url("../img/bg2.png");
+    overflow: hidden;
+}
+.two_img1{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.two_kong1{
+    height: 1rem;
+    background: url("../img/bg1-2.png");
+    animation: kong 2.5s ease infinite;
+}
+@keyframes kong {
+    0%{}
+    50%{transform: scale(1.1,1.1)}
+    100%{}
+}
+.img_box{
+    position: relative;
+    width: 100%;
+    height: 3.125rem;
+}
+.two_img2{
+    display: block;
+    width: 4.53125rem;
+    margin: 0 auto;
+}
+.two_img3{
+    display: block;
+    width: 0.65rem;
+    margin: -0.3125rem auto 0;
+}
+.two_p1{
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.8rem;
+    text-align: center;
+    color: #00ffff;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    opacity: 0;
+}
+.two_li{
+    list-style: none;
+    width: 90%;
+    height: 1.25rem;
+    border-radius: 0.3125rem;
+    -webkit-border-radius: 0.625rem;
+    margin: 0 auto;
+    margin-bottom: 0.3125rem;
+    text-align: center;
+    line-height: 1.25rem;
+    z-index: 300;
+    color: #fff;
+    font-size: 0.42rem;
+    background: rgba(255,255,255,0.2);
+    opacity: 0;
+}
+/* three 屏*/
+.three{
+    position: relative;
+    background: #000 url("../img/bg3-2.png");
+    background-size: 10rem 100%;
+    overflow: hidden;
+}
+.three_kong1{
+    height: 1rem;
+}
+.three_li{
+    list-style: none;
+    width: 90%;
+    height: 1.25rem;
+    padding-left: 0.625rem;
+    border-radius: 0.3125rem;
+    -webkit-border-radius: 0.625rem;
+    margin: 0 auto;
+    margin-bottom: 0.3125rem;
+    text-align: left;
+    line-height: 1.25rem;
+    color: #fff;
+    font-size: 0.38rem;
+    background: rgba(255,255,255,0.2);
+    position: relative;
+    opacity: 0;
+}
+.three_span{
+    display: block;
+    width: 0;
+    height: 100%;
+    border-radius: 0.3125rem;
+    -webkit-border-radius: 0.625rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(255,255,255,0.3);
+    opacity: 0;
+}
+.span1{
+    width: 100%;
+}
+.span2{
+    width: 72%;
+}
+.span3{
+    width: 90%;
+}
+.span4{
+    width: 80%;
+}
+.span5{
+    width: 70%;
+}
+.span6{
+    width: 93%;
+}
+.span7{
+    width: 75%;
+}
+/* four */
+.four{
+    position: relative;
+    background:url("../img/bg4.jpg");
+    background-size: 10rem 100%;
+    overflow: hidden;
+}
+.four_bg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    animation: four 3s ease infinite;
+    transform: scale(0.7,0.7);
+}
+@keyframes four {
+    0%{opacity: 0.2}
+    50%{opacity: 1}
+    100%{opacity: 0.2;transform: scale(1,1)}
+}
+.four_kong1{
+    height: 1rem;
+}
+.four_box{
+    width: 100%;
+    height: 9.84375rem;
+    margin: 0 auto;
+    position: relative;
+}
+.four_img1{
+    display: block;
+    width: 3.4375rem;
+    height: 100%;
+    margin: 0 auto;
+}
+.four_box p{
+    width: 4.6875rem;
+    height: 1.5rem;
+    font-size: 0.38rem;
+    color: #fff;
+    text-align: left;
+    position: absolute;
+}
+.four_img2{
+    width: 0.40625rem;
+    height: 0.6875rem;
+    position: absolute;
+}
+.img01{
+    left: 5.685rem;
+    top: 2.5rem;
+}
+.img02{
+    left: 3.925rem;
+    top: 4.625rem;
+}
+.img03{
+    left: 5.725rem;
+    top: 6.625rem;
+}
+.four_p1{
+    left: 0.3125rem;
+    top: 1.925rem;
+}
+.four_p2{
+    right: 0;
+    top: 3.925rem;
+}
+.four_p3{
+    left: 0.3125rem;
+    top: 5.925rem;
+}
+/* five 屏*/
+.five{
+    position: relative;
+    background: #000;
+    background-size: 10rem 100%;
+    overflow: hidden;
+}
+.five_img1{
+    display: block;
+    width: 13rem;
+    position: absolute;
+    left: -1.5rem;
+    top: -100%;
+    animation: yueliang 13s linear 0s infinite;
+    z-index: 10;
+}
+.active{
+    top: -50%;
+    margin-top: 1rem;
+    transition: all 2s ease 0s;
+}
+@keyframes yueliang {
+    0%{ }
+    100%{ transform: rotate(360deg)}
+}
+.five_img2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    z-index: 99;
+    opacity: 0.7;
+}
+.five_img3{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 10rem;
+    height: 100%;
+    transform: scale(0.8,0.8);
+    animation: four 3s ease infinite;
+}
+.five_img4{
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+    display: block;
+    width: 5.03125rem;
+    transform: rotate(170deg);
+}
+.five_img5{
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+    display: block;
+    width: 3.5625rem;
+    transform: rotate(200deg);
+}
+.five_kong{
+    height: 6rem;
+}
+.five_img6{
+    display: block;
+    width: 25rem;
+    margin-left: 1rem;
+}
+.five_p{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    color: #00BCD4;
+    font-size: 0.56rem;
+    margin-top: 1rem;
+    opacity: 0.8;
+}
+.five_kong2{
+    height: 5.6rem;
+}
+/* six 屏*/
+.six{
+    position: relative;
+    background: url("../img/bg6.gif");
+    overflow: hidden;
+}
+.six_kong1{
+    height: 1rem;
+}
+.six_kong2{
+    height: 1.3125rem;
+}
+.six_img1{
+    display: block;
+    width: 5.25rem;
+    margin: 0 auto;
+}
+.six_kong3{
+    height: 1rem;
+}
+.six_p{
+    width: 7rem;
+    height: 1rem;
+    margin-left: 2.5625rem;
+    text-align: left;
+    color: #fff;
+    font-size: 0.45rem;
+}

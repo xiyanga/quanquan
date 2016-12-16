@@ -1,0 +1,651 @@
+/*banner开始*/
+.banner{
+    min-width: 1100px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.banner>.banner_con{
+    display: none;
+    overflow: hidden;
+    width: 100%;
+    height:100%;
+    background: url("../img/banner3.jpg") no-repeat center;
+}
+.btn {
+    bottom: 50px;
+    left: 50%;
+    margin-left: -250px;
+    position: absolute;
+    width: 500px;
+    height: 80px;
+    border-radius: 80px;
+    overflow: hidden;
+}
+.btn>span{
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+
+    width: 85px;
+    height: 80px;
+    color: darkgoldenrod;
+    float: left;
+
+}
+.btn>#ban_btnr{
+    float: right;
+
+}
+.btn_con{
+    float: left;
+    width: 330px;
+    height: 100%;
+    position: relative;
+}
+.banner_con>.mr1{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 500px;
+    height: 230px;
+    background-size: cover;
+    background: url("../img/mr1.png") no-repeat;
+}
+.banner_con>.mr2{
+
+    margin-left: 450px;
+    width: 500px;
+    height: 150px;
+    background-size: cover;
+    background: url("../img/mr2.png") no-repeat;
+}
+.banner_con>.mr3{
+    margin-left: 580px;
+    margin-top: 100px;
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    background: url("../img/mr3.png") no-repeat;
+}
+.btn_zhong{
+    position: relative;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 20px;
+    float: left;
+    margin-top: 30px;
+    margin-right: 10px;
+    background: rgba(255,255,255,.6);
+    overflow: hidden;
+}
+.btn_zhong>.btn_bian{
+    position: absolute;
+    left: -50px;
+    width: 100%;
+    height: 100%;
+    background: darkorange;
+}
+.hh{
+    position: relative;
+    width: 800px;
+    float: left;
+    height: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.hh>img{
+
+    float: left;
+    width: 100px;
+    height: 100px;
+    animation: dong 1s ease 0s infinite;
+}
+.hh>img:hover{
+
+}
+@keyframes dong {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+.hh>div{
+    color: rgb(95,199,230);
+    font:500 30px/100px "Microsoft YaHei", '微软雅黑';
+    background: rgba(255,255,255,.2);
+    border-radius: 30px;
+    width: 700px;
+    height: 100px;
+
+
+}
+/*banner结束*/
+.jieshi{
+    width: 100%;
+    height: 320px;
+    background: #fff;
+    text-align: center;
+}
+.jieshi>p{
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: "宋体";
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+}
+.jieshi>p>a{
+    color: #00B0E7;
+}
+.jieshi>span{
+    font-size: 45px;
+    font-weight: 100 !important;
+    font-family: "宋体";
+    letter-spacing: 1em;
+    color: #888;
+
+}
+
+.jieshi>span>a{
+    font-size: 30px;
+}
+.gd{
+    width: 100%;
+    height: 500px;
+    background: url("../img/bg1_1600.jpg") no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+.guodu{
+
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    background: url("../img/bg3_1600.jpg");
+    background-attachment: fixed;
+}
+
+.today{
+    padding-bottom: 100px;
+    min-width: 1100px;
+    height: 600px;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.today_con{
+    margin: 0 auto;
+    width:1100px;
+    height: 100%;
+    overflow: hidden;
+}
+.today_con>.today_logo{
+ margin: 0 auto;
+    width: 500px;
+    height: 160px;
+    margin-top: 30px;
+    background: url("../img/jrgz.png") no-repeat;
+}
+.today_lb{
+    width:100%;
+    height: 440px;
+}
+.today_ul{
+    overflow: hidden;
+    width: 1100px;
+}
+.today_c1{
+    overflow: hidden;
+
+}
+.lb_con{
+    top:0;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.today_ul>li{
+    cursor: pointer;
+    list-style: none;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: rgb(249,250,252);
+    border: 1px solid #dfe3e5;;
+    width: 364px;
+}
+.today_tb{
+    position: relative;
+    overflow: hidden;
+    height: 388px;
+    width: 100%;
+}
+.toady_left,.toady_right{
+    padding: 30px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 388px;
+    float: left;
+}
+.toady_left>h3{
+    font-size: 30px;
+    line-height: 50px;
+    color: #343C41;
+}
+.toady_left>p{
+    line-height: 28px;
+    font-size: 18px;
+    color: #666;
+    text-indent: 2em;
+}
+.toady_left>span{
+    font-size: 12px;
+    color: #0397dc;
+    cursor: pointer;
+}
+.toady_right>img{
+    width: 100%;
+    height: 300px;
+}
+/*今日关注结束*/
+/*我的空间开始*/
+.space{
+    margin: 0 auto;
+    width:1100px;
+    height: 100%;
+    /*background: darkcyan;*/
+    overflow: hidden;
+    background: url("../img/wdkjbg1.png") ;
+    background-attachment: fixed;
+}
+
+.space_con{
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 1100px;
+    height: 100%;
+    //width:960px  560px
+}
+.space_one{
+    transform-origin: 0 0;
+    transform: rotate(20deg);
+    width: 300px;
+    height: 300px;
+    margin-right: 46px;
+    margin-bottom: -10px;
+    float: left;
+    box-shadow: 3px 3px  3px 8px;
+    transition: all .5s ease 0s;
+}
+.qiye{
+    text-align: center;
+    width: 200px;
+    margin: 50px auto;
+
+}
+.qiye>span{
+    color: red;
+}
+.qiye:hover>span{
+    color: #000;
+}
+.space_nei{
+    color: #fff;
+    text-align: center;
+    font-size: 50px !important;
+    margin: 21px ;
+    box-sizing: border-box;
+    width: 258px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    bottom:0px;
+    background: rgba(0,0,0,0.8);
+
+}
+.space_nei>h2{
+    font-size: 30px;
+}
+.fabk_z{
+    line-height: 16px;
+    margin: 20px auto;
+    width: 200px;
+    height: 120px;
+    border: 1px solid #fff;
+}
+.fabk_z>span{
+    font-size: 15px;
+
+}
+.space_dong{
+    box-shadow:0 0 0 0;
+    transform: rotate(0deg)
+}
+
+/*我的空间结束*/
+/*我的生活开始*/
+#lift{
+    margin: 60px auto;
+    width:1100px;
+    height: 100%;
+    /*background: darkcyan;*/
+}
+#lift>h1{
+    display: block;
+    text-align: center;
+}
+#lift>h1>span{
+    color:red;
+}
+#lift>h1:hover>span{
+    color: #000;
+}
+.lift_con{
+    margin-top: 10px;
+    width: 100%;
+    height: 555px;
+    box-sizing: border-box;
+    /*box-shadow: 6px 5px 5px #222;*/
+    float: left;
+    /*background: url('../img/elm.jpg') no-repeat center;*/
+    margin-right: 20px;
+    padding-top: 20px;
+
+}
+
+.elm_logo{
+    float: left;
+    width: 252px;
+    height: 387px;
+    margin-left: -100px;
+    background: url("../img/pn.png") no-repeat;
+}
+.map_l{
+    width: 650px;
+    height: 500px;
+    float: left;
+    margin-left: -50px;
+    position: relative;
+}
+#map{
+    width: 400px;
+    height: 300px;
+    float: left;
+
+}
+.kblogo{
+    margin-left: -100px;
+    background: url("../img/kb.png") no-repeat;
+    width: 447px;
+    height: 502px;
+    float: left;
+}
+
+.search{
+    width: 450px;
+    height: 56px;
+    background: #fff;
+    border: 1px solid #ccc;
+
+}
+.search>a{
+    display: block;
+    width: 60px;
+    float: left;
+    text-align: center;
+    line-height: 56px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #222;
+    background: #fff;
+}
+.search>input{
+    border: 0;
+    margin: 15px auto;
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 280px;
+    border-left: 1px solid #dcdcdc;
+    outline: none;
+    height: 30px;
+    float: left;
+}
+.search>label{
+    display: block;
+    float: right;
+    background: #f74342;
+    width: 100px;
+    height: 56px;
+    line-height: 56px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.ms_div{
+    position: relative;
+    margin-top: 30px;
+    width: 400px;
+    height: 100px;
+    background: #fff;
+    margin-left: 25px;
+}
+.wm_left{
+    width: 100px;
+    height: 100px;
+    float: left;
+    box-sizing: border-box;
+    border: 10px solid rgba(255,255,255,.3);
+}
+.wm_left>img{
+    width:100%;
+    height: 100%;
+}
+.ms_div>span{
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.ms_div>span:hover{
+    color: darkgoldenrod;
+}
+.ms_div>p{
+    line-height: 10px;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+
+}
+.ms_div>button{
+    position: absolute;
+    bottom:0;
+    border: 0;
+    outline: none;
+    width: 100px;
+    height: 50px;
+    right:0;
+    background: rgba(2,146,230,.8);
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.animat_q{
+    z-index: 500;
+    position: absolute;
+    top:10px;
+    display: none;
+}
+.qiang{
+    float: left;
+    width: 100px;
+    height:80px;
+}
+.zdd{
+    display: none;
+    position: absolute;
+    left: 100px;
+}
+.zd{
+    transform: rotate(180deg);
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+}
+.close{
+    width: 70px;
+    height: 50px;
+    animation: qiang 5s ease infinite;
+}
+@keyframes qiang {
+    0%{transform: rotate(80deg);}
+    50% { transform: rotate(-30deg);}
+    100% {transform: rotate(80deg);}
+
+}
+.qiang>img,.zd>img,.close>img{
+    width:100%;
+    height: 100%;
+}
+.lift_bottom{
+    float: left;
+    width: 100%;
+    height: 500px;
+}
+
+.lb_t{
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    background: url("../img/tq/tqbg.jpg") no-repeat;
+    background-size: cover;
+}
+.lb_f{
+    width: 70%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+.zhifuba{
+    width: 100%;
+    height: 100%;
+    float: left;
+    background: url("../img/zflg.png") no-repeat;
+    margin-left: 900px;
+}
+.lb_ff{
+    width: 100%;
+    height: 100%;
+    left:0;
+    display: none;
+    padding: 50px;
+    color: #333;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgba(255,255,255,.9);
+}
+
+.lb_ff td{
+    height: 40px;
+}
+.lb_ff {
+
+}
+.time{
+    width: 90px;
+    font-size: 15px;
+
+    color: #222;
+}
+.buy{
+    width: 200px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.buy:hover{
+    color: #aa5500;
+}
+.rmb{
+    width: 100px;
+    font-weight: bold;
+}
+.success{
+    width: 100px;
+
+}
+.xq{
+    width: 100px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.xq:hover{
+    color: #0188cc;
+}
+.title>td{
+    font-weight: bold;
+    text-align: left;
+    padding-right: 30px;
+}
+.tqb{
+    margin-top: 200px;
+    text-align: center;
+    color: #fff;
+}
+.tq_time>span{
+    color: #fff;
+    font-size: 12px
+}
+.tqb>p{
+    line-height: 30px;
+    cursor: pointer;
+}
+.tqb>p:hover{
+    color: darkgoldenrod;
+}
+/*我的生活结束*/
+/*底部开始*/
+
+/*底部结束*/
+/*返回顶部*/
+.fanhuitop{
+    position: fixed;
+    bottom: 200px;
+    right: 30px;
+    width: 87px;
+    display: none;
+    z-index: 555;
+}
+.top{
+    background: url(../img/scroll_top_bg.png) no-repeat;
+    height: 50px;
+    width: 50px;
+    z-index: 255;
+    float: right;
+    margin-right: 20px;
+    right: 0;
+    top:0;
+    cursor: pointer;
+    margin-bottom: 24px;
+    transition: .2s ease 0s;
+}
+.top:hover{
+    background-position: 0 -50px;
+}
+.advertisement{
+    float: right;
+    width: 87px;
+    height: 87px;
+    background: url("../img/fixed_contactus.png") top right no-repeat;
+}
+.advertisement:hover{
+    width: 235px;
+    animation: su-pudding 1s linear 0s normal none 1 running ;
+    transition: all 0.5s ease 0s;
+}

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圈圈网</title>
+    <meta name="description" content="圈圈网-杨建个人作品CSS3个性展示网站，欢迎您的访问。">
+    <meta name="keyword" content="web个人作品，html+css，承德石油杨建，圈圈网，廊坊杨建，工程师杨建">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=3qkFf2G2rUbWKsNYmc2dDvL7"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.cookie.js" type="text/javascript"></script>
+<script src="js/index.js"></script>
+<script src="js/move.js"></script>
+<body>
+<!--导航栏开始-->
+    <div class="header"></div>
+    <div class="jieshi">
+            <p>I'm <a>圈圈</a> - 每一天</p>
+        <span>一<a>·</a>朝<a>·</a>一<a>·</a>暮</span>
+    </div>
+    <div class="gd"></div>
+<!--导航结束-->
+<!--banner开始-->
+    <div class="banner">
+        <div class="btn">
+            <span type="button" id="ban_btnl" class="fa fa-chevron-left"></span>
+            <div class="btn_con">
+                <div class="btn_zhong">
+                <div class="btn_bian" style="left:0;"></div>
+                </div>
+                <div class="btn_zhong">
+                <div class="btn_bian"></div>
+                </div>
+                <div class="btn_zhong">
+                <div class="btn_bian"></div>
+                </div>
+            </div>
+            <span type="button" id="ban_btnr" class="fa fa-chevron-right"></span>
+        </div>
+        <div class="banner_con" style="display: block">
+            <div class="mr1 zf">
+            </div>
+            <div class="mr2 yf">
+            </div>
+        </div>
+        <div class="banner_con" style="background: url('img/banner4.jpg') no-repeat">
+          <div class="mr3 zf" ></div>
+        </div>
+        <div class="banner_con" style="background: url('img/banner1%20(2).jpg') no-repeat">
+            <div class="hh mr5 yf">
+                <img src="img/x1.png" alt="">
+                <div> 我们匠心打造保护用户信息的网站</div>
+            </div>
+            <div class="hh mr6 zf" style="float: right">
+                <img src="img/x2.png" alt="">
+                <div style="color: #d0e9c6"> 圈圈网帮助您更好的安排时间</div>
+            </div>
+            <div class="hh mr7 yf">
+                <img src="img/x3.png" alt="">
+                <div style="color: #a94442"> 不在担心每个月繁琐的缴费，我们给您记录</div>
+            </div>
+            <div class="hh mr8 zf" style="float: right">
+                <img src="img/x4.png" alt="">
+                <div style="color: #d0e9c6"> 随时告诉您好友的动态哦</div>
+            </div>
+        </div>
+    </div>
+<!--banner结束-->
+<!--今日关注模块开始-->
+    <div class="today" id="news">
+        <div class="today_con">
+            <div class="today_logo"></div>
+            <div class="today_lb">
+              <ul class="today_ul">
+                  <li style="background: rgb(35,154,248);color: #fff">国内新闻</li>
+                  <li>国际新闻</li>
+                  <li>央视直播</li>
+              </ul>
+             <div class="today_tb">
+               <div class="lb_con">
+                    <div class="today_c1" >
+                    <div class="toady_left">
+                        <h3>温州民房倒塌瞬间 父母以身体护住了女儿</h3>
+                        <p>10月10日晚上6点35分，温州鹿城区塌楼事故现场传来一个好消息，在救援人员不懈努力下，一名小女孩被成功救出，救出时还有生命体征。现场两名成人呈十字交叉形护住一名小女孩。现场救援人员判断，那两名用身体护住孩子的，应该是小女孩的父母。供图：浙江在线</p>
+                        <span>查看全文>></span>
+                    </div>
+                    <div class="toady_right">
+                        <img src="img/news/n1.jpg" alt="">
+                    </div>
+                </div>
+                     <div class="today_c1">
+                     <div class="toady_left">
+                         <h3>美总统大选第二轮电视辩论落幕 特朗普站稳脚跟</h3>
+                         <p>据外媒报道，当地时间10日，美国民主党总统候选人希拉里﹒克林顿与共和党总统候选人唐纳德﹒特朗普进行第二场电视辩论，这场激烈辩论的人身攻击程度达到了前所未有的地步，二人还各自就税务、外交政策以及由与会者和主持人提出的其他议题发表了值得商榷的看法。</p>
+                         <span>查看全文>></span>
+                     </div>
+                     <div class="toady_right">
+                         <img src="img/news/n2.jpg" alt="">
+                     </div>
+                 </div>
+                    <div class="today_c1">
+                     <div class="toady_left">
+                         <h3>【直播解读】港珠澳大桥——“巨龙”飞堑 跨越新奇迹</h3>
+                         <p>1983年，香港的建筑师胡应湘最早提出了建造港珠澳大桥想法；2009年12月15日，港珠澳大桥正式开工建设；2016年6月29日，主体桥梁成功合拢；2016年9月27日，港珠澳大桥主体桥梁正式贯通[2]  ；预计2017年年底建成通车。</p>
+                         <span>查看全文>></span>
+                     </div>
+                     <div class="toady_right">
+                         <img src="img/news/n3.jpg" alt="">
+                     </div>
+                 </div>
+               </div>
+             </div>
+            </div>
+        </div>
+    </div>
+<!--今日关注模块结束-->
+<div class="guodu"></div>
+<!--合作企业开始-->
+    <div class="today" style="height: 700px;">
+        <h1 class="qiye"><span>合作</span>企业</h1>
+        <div class="space">
+            <div class="space_logo">
+            </div>
+            <div class="space_con">
+                <div class="space_one" style="background: url('img/kj/facebook.png')no-repeat center">
+                    <div class="space_nei fa fa-facebook-official">
+                            <h2>facebook</h2>
+                        <div class="fabk_z">
+                            <span>马克·扎克伯格先生于2016年10月与圈圈网集团董事长Mr.Yang签署合作关系。是中国大陆政府默认的一次合作。</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="space_one"  style="background: url('img/kj/twitter.png')no-repeat center">
+                    <div class="space_nei fa fa-twitter-square">
+                        <h2>twitter</h2>
+                        <div class="fabk_z">
+                            <span>杰克·多西先生于2016年10月与圈圈网集团董事长Mr.Yang签署合作关系。是中国大陆政府默认的一次合作。</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="space_one"  style="background: url('img/kj/soundhound.png')no-repeat center">
+                    <div class="space_nei fa fa fa-skype">
+                        <h2>skype</h2>
+                        <div class="fabk_z">
+                            <span>杰纳斯•弗里斯先生于2016年10月与圈圈网集团董事长Mr.Yang签署合作关系。是中国大陆政府默认的一次合作。</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="space_one"  style="background: url('img/kj/tumblr.png')no-repeat center">
+                    <div class="space_nei fa fa-tumblr-square">
+                        <h2>tumblr</h2>
+                        <div class="fabk_z">
+                            <span> 戴维·卡普先生于2016年10月与圈圈网集团董事长Mr.Yang签署合作关系。是中国大陆政府默认的一次合作。</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="space_one"  style="background: url('img/kj/whatsapp.png')no-repeat center">
+                    <div class="space_nei fa fa-linkedin-square">
+                        <h2>linkedin</h2>
+                        <div class="fabk_z">
+                            <span>雷德·霍夫曼先生于2016年10月与圈圈网集团董事长Mr.Yang签署合作关系。国际之间的职位与用户订阅。</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="space_one"  style="background: url('img/kj/youtube.png')no-repeat center">
+                    <div class="space_nei fa fa-youtube-square">
+                        <h2>youtube</h2>
+                        <div class="fabk_z">
+                            <span>陈士骏先生于2016年10月与圈圈网集团董事长Mr.Yang签署合作关系。是中国大陆政府默认的一次合作。</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--合作企业结束-->
+<!--我的生活开始-->
+    <div class="today" id="meishi" style="height: auto">
+        <!--手枪开始-->
+            <div class="animat_q">
+                <div class="qiang">
+                    <img src="img/qiang.png" alt="">
+                </div>
+                <div class="zdd">
+                    <div class="zd">
+                        <img src="img/zd.png" alt="">
+                    </div>
+                    <div class="close">
+                        <img src="img/gb.png" alt="">
+                        <div style="font-size: 20px;font-weight: bold">没饭啦</div>
+                    </div>
+                </div>
+            </div>
+        <!--手枪结束-->
+      <div id="lift">
+          <h1><span>我的</span>生活</h1>
+          <div class="lift_con">
+              <div class="kblogo"></div>
+              <div class="map_l">
+                 <div class="search">
+                     <a href="" class="fa fa-search"></a>
+                     <input type="text" placeholder="请输入你的收货地址（写字楼，小区，街道或者学校）"><label>搜索</label>
+                 </div>
+                  <div class="ms_div">
+                        <div class="wm_left">
+                            <img src="img/wm1.jpeg" alt="">
+                        </div>
+                      <span>田老师红烧肉（海淀宝...</span>
+                        <p>月售600单</p>
+                      <a style="font-size: 10px;margin-top: 5px;color: #999">配送费9元</a>
+                      <button>进入</button>
+                  </div>
+                  <div class="ms_div">
+                      <div class="wm_left">
+                          <img src="img/wm2.jpeg" alt="">
+                      </div>
+                      <span>北京麦当劳三元餐厅...</span>
+                      <p>月售50单</p>
+                      <a style="font-size: 10px;margin-top: 5px;color: #999">配送费80元</a>
+                      <button>进入</button>
+                  </div>
+                  <div class="ms_div">
+                      <div class="wm_left">
+                          <img src="img/wm3.jpeg" alt="">
+                      </div>
+                      <span>凉皮先生（女人街店）</span>
+                      <p>月售518单</p>
+                      <a style="font-size: 10px;margin-top: 5px;color: #999">配送费8元</a>
+                      <button>进入</button>
+                  </div>
+
+              </div>
+              <div class="elm_logo"></div>
+
+          </div>
+          <div class="lift_bottom">
+              <div class="lb_t" id="tianqi">
+                  <div class="tq_time">
+                        <span >北京市昌平区</span>
+                        <span class="nian"></span>
+                      <span class="yue"></span>
+                      <span class="ri"></span>
+                  </div>
+                  <div class="tqb">
+                      <img src="img/tq/5.png" alt="">
+                      <p style="font-size: 32px;">22 ~ 12<sup>℃</sup></p>
+                      <p>霾</p>
+                      <p>微风</p>
+                      <p>实时空气质量:重度污染</p>
+                      <p>建议出行带口罩</p>
+                  </div>
+              </div>
+              <div class="lb_f" id="jiaofei" >
+                  <div class="zhifuba"></div>
+                  <div class="lb_ff">
+                        <h2>流水账单</h2>
+                   <table>
+                       <tr class="title">
+                           <td class="time">支出时间</td><td class="buy">去向</td>
+                           <td class="rmb">金额</td><td class="success">支付状态</td>
+                           <td class="xq"></td>
+                       </tr>
+                       <tr>
+                           <td class="time">2016.10.07</td><td class="buy">回锅肉盖饭 等多件</td>
+                           <td class="rmb">-52.2</td><td class="success">成功</td>
+                           <td class="xq">详情</td>
+                       </tr>
+                       <tr>
+                           <td class="time">2016.10.11</td><td class="buy">水煮肉片套餐</td>
+                           <td class="rmb">-56</td><td class="success">成功</td>
+                           <td class="xq">详情</td>
+                       </tr>
+                       <tr>
+                           <td class="time">2016.10.09</td><td class="buy">充值-普通充值</td>
+                           <td class="rmb">-100</td><td class="success">成功</td>
+                           <td class="xq">详情</td>
+                       </tr>
+                       <tr>
+                           <td class="time">2016.10.15</td><td class="buy">家庭用电缴费</td>
+                           <td class="rmb">-200</td><td class="success">成功</td>
+                           <td class="xq">详情</td>
+                       </tr>
+                       <tr>
+                           <td class="time">2016.10.16</td><td class="buy">燃气费缴费</td>
+                           <td class="rmb">-80</td><td class="success">失败</td>
+                           <td class="xq">详情</td>
+                       </tr>
+                       <tr>
+                           <td class="time">2016.10.17</td><td class="buy">燃气费缴费</td>
+                           <td class="rmb">-80</td><td class="success">成功</td>
+                           <td class="xq">详情</td>
+                       </tr>
+
+                       <tr>
+                           <td class="time">2016.10.18</td><td class="buy">淘宝购物</td>
+                           <td class="rmb">-6.1</td><td class="success">成功</td>
+                           <td class="xq">详情</td>
+                       </tr>
+                       <tr>
+                           <td class="time">2016.10.19</td><td class="buy">一卡通充值</td>
+                           <td class="rmb">-50</td><td class="success">成功</td>
+                           <td class="xq">详情</td>
+                       </tr>
+
+                   </table>
+
+                  </div>
+              </div>
+          </div>
+
+
+
+      </div>
+    </div>
+<!--我的生活结束-->
+<!--底部开始-->
+<div class="bottom"></div>
+<!--底部结束-->
+<!--返回顶部-->
+<div class="fanhuitop">
+    <div class="top"></div>
+    <div class="advertisement">
+    </div>
+</div>
+</body>
+</html>

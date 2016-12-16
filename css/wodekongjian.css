@@ -1,0 +1,660 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica, sans-serif;
+}
+.header{
+    min-width: 1100px;
+    height: 41px;
+    background:url("../img/nav_bg.gif") repeat-x ;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header_nav{
+    line-height: 50px;
+    margin:0 auto;
+    width: 1100px;
+    height: 50px;
+}
+.header_nav>i{
+    float: left;
+}
+.header_nav>i>span{
+    font-size: 18px;
+    line-height: 40px;
+}
+.header_ul{
+    float: left;
+    margin-left: 100px;
+}
+.header_ul>li{
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+    cursor: pointer;
+    color: #c0c0c0;
+    font-size: 20px;
+    transition: all .8s ease 0s;
+}
+.header_ul>li:hover{
+    background:url("../img/kj/ddd.png")no-repeat center bottom;
+}
+.header_ul>.active{
+    color: #fff;
+    background:url("../img/kj/ddd.png")no-repeat center bottom;
+}
+/*//导航栏结束*/
+.banner{
+    position: absolute;
+}
+.content{
+    min-width: 1100px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+
+}
+.plate1{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.plate1>.plate_img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.plate1>.plate_img>img{
+    width:100%;
+    height: 100%;
+}
+.naozhong{
+    width: 850px;
+    height: 300px;
+    position: absolute;
+    background-size: cover;
+    left: 50%;
+   margin-left: -400px;
+    top:50%;
+    margin-top: -150px;
+}
+.hao,.hao1,.xue,.xi,.tian,.dou,.tian1,.xiang,.shang{
+    display: none;
+    background: url("../img/kj/hao.png") no-repeat;
+    width: 90px;
+    height: 90px;
+    float: left;
+    transition: all  1s ease   0s ;
+}
+.hao1,.xi,.tian,.xiang{
+    margin-top: 50px;
+}
+.xue{
+    background: url("../img/kj/xue.png") no-repeat;
+}
+.xi{
+    background: url("../img/kj/xi.png") no-repeat;
+
+}
+.dou{
+    background: url("../img/kj/dou.png") no-repeat;
+}
+.tian,.tian1{
+    background: url("../img/kj/tian.png") no-repeat;
+}
+.xiang{
+    background: url("../img/kj/xiang.png") no-repeat;
+}
+.shang{
+
+    background: url("../img/kj/shang.png") no-repeat;
+}
+.ziactive{
+    transform-origin:center 0;
+   animation:ziactive 3s infinite  ;
+}
+@keyframes ziactive{
+0%{transform: rotate(50deg);}
+50%{transform: rotate(-30deg);}
+100% {transform: rotate(50deg);}
+}
+.dong1{
+    display: none;
+    margin-left: -100px;
+    margin-top:120px;
+    background: url("../img/kj/kjlg.png");
+    width: 980px;
+    height: 46px;
+}
+.dong2{
+    display: none;
+    background: url("../img/kj/wl.png");
+   width: 980px;
+    margin-top: 30px;
+    height: 58px;
+}
+.plate2{
+    position: relative;
+    background: url("../img/kj/jsbg.jpg") no-repeat center;
+    background-color: rgb(245,245,245);
+    overflow: hidden;
+    /*******************************************************************************************************/
+}
+.plate2_c{
+    width: 10000px;
+    height: 100%;
+    position: absolute;
+}
+.plate2_one{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.plate2_one>.jieshao_title{
+    text-align: center;
+    color: rgb(38,55,49);
+    font-size: 40px;
+    font-weight: bold;
+}
+.plate2_one>.jieshao_alt{
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    color: #6b6a6f;
+    font-size: 18px;
+}
+.one_con{
+    margin: 0 auto;
+    width: 900px;
+    height: 360px;
+}
+.one_left{
+    width: 50px;
+    height: 100%;
+    float: left;
+}
+.one_right{
+    width: 850px;
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.one_top{
+    width: 100%;
+    height: 178px;
+    background: rgb(230,210,132);
+    border: 1px solid #dfe3e5;
+}
+.one_gg{
+    width: 100%;
+    height: 720px;
+    position: absolute;
+
+}
+.one_img{
+    background: url("../img/kj/gun.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 360px;
+
+}
+.one_img2{
+    width: 100%;
+    height: 360px;
+    background: url("../img/kj/gun1.jpg") no-repeat ;
+    background-size: cover;
+}
+.two{
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+
+}
+.two_logo{
+    background: url("../img/kj/kjlgg.png") no-repeat left;
+    background-size: cover;
+    width: 590px;
+    height: 71px;
+    margin: 0 auto;
+}
+.two_gg{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+
+}
+.camera{
+
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+    background: rgb(89,69,151);
+    border-radius: 50%;
+    color: #fff;
+    float: left;
+    margin-right: 50px;
+}
+.two_bottom{
+
+    float: left;
+    width: 650px;
+    height: 100px;
+}
+.two_bottom>p{
+    color: rgb(89,69,151);
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.two_bottom>span{
+    font-size: 18px;
+    color: #000	;
+}
+.sun{
+    background: url("../img/kj/sun.png") no-repeat ;
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    position: absolute;
+    right:0;
+}
+.yun,.yun2,.yun4{
+    background: url("../img/kj/yun.png") no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+}
+.yun{
+    top:100px;
+    right: 0;
+    animation: yun 80s infinite linear;
+}
+.yun1{
+    top:80px;
+    right: 100px;
+    animation: yun 20s infinite linear;
+
+}
+.yun2{
+    top:120px;
+    right: 300px;
+    animation: yun2 10s infinite linear;
+
+}
+.yun3{
+    top:100px;
+    right: 500px;
+    animation: yun3 10s infinite linear;
+}
+.yun4{
+    top:80px;
+    right: 800px;
+    animation: yun3 35s infinite linear;
+
+}
+.yun1,.yun3{
+    position: absolute;
+    background: url("../img/kj/yun.png") no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 80px;
+}
+@keyframes yun {
+    from{right: 0px;}
+    to{right: 1300px}
+}
+@keyframes yun2 {
+    from{right: 900px;}
+    to{right: 1300px}
+}
+@keyframes yun3 {
+    from{right: 500px;}
+    to{right: 1300px}
+}
+@keyframes yun4 {
+    from{right: 800px;}
+    to{right: 1300px}
+}
+.fj{
+    position: absolute;
+    top:70px;
+    left: 50%;
+    margin-left: -400px;
+    width: 800px;
+    height: 500px;
+}
+.ff{
+    background: url("../img/kj/fj.png") no-repeat;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-left: 400px;
+    background-size: cover;
+    transform: rotateY(180deg);
+}
+.plate_jie{
+    position: absolute;
+    bottom: 0;
+    right: 230px;
+    line-height: 25px;
+    width: 500px;
+    height:300px;
+    color: #555;
+}
+.plate_left,.plate_right{
+    width: 50px;
+    height:50px;
+    font-size: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 600;
+    top:50%;
+    margin-top: -40px;
+}
+.plate_left:hover{
+    color: #888;
+}
+.plate_right:hover{
+    color: #888;
+}
+.plate_left{
+    left: 100px;
+}
+.plate_right{
+    right: 100px;
+}
+.plate3{
+    width: 100%;
+    background: url("../img/kj/tybg.jpg") no-repeat center;
+    background-size: cover;
+}
+.plate3_con{
+    width: 1100px;
+
+    margin: auto;
+    /*background: rgba(255,255,255,.6);*/
+    position: relative;
+}
+.jsg{
+    width: 400px;
+    height: 100%;
+    float: left;
+    position: relative;
+    margin-left: 150px;
+}
+.yh{
+    width: 400px;
+    background: url("../img/kj/yh.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.jsg>img{
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    z-index: 600;
+    transform-origin: 0 bottom;
+    transition: all 1s ease 0s;
+}
+.jsg:hover img{
+    transform: rotateY(-90deg);
+}
+.skj:hover img{
+    transform: rotateY(-90deg);
+}
+.skj>img{
+    width: 400px;
+    height: 100%;
+    z-index: 600;
+    position: absolute;
+    transition: all 1s ease 0s;
+    transform-origin: right bottom;
+
+}
+.skj{
+    width: 400px;
+    height: 100%;
+    float: right;
+    position: relative;
+    margin-right: 150px;
+
+
+}
+.wc{
+    width: 400px;
+    height: 580px;
+    background: url("../img/kj/wc.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.plate4{
+    width: 100%;
+    position: relative;
+    background: #fff;
+}
+#map{
+    width: 60%;
+    height: 100%;
+    background: #fff;
+    float: left;
+    position: relative;
+    /*box-shadow:5px 5px ;*/
+
+}
+ .map_bottom{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 20px;
+    background: #fff;
+    z-index: 20;
+}
+.map_r{
+    width: 40%;
+    height: 100%;
+    float: left;
+    position: relative;
+    /*background: url("../img/kj/call.jpg") no-repeat;*/
+    /*background-size: contain;*/
+}
+.from_call{
+    position: relative;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+.from_call>h4{
+    line-height: 30px;
+    color: #6A6A6A;
+}
+.from_call>span,label{
+    font-size: 14px;
+    color: #6A6A6A;
+    line-height: 30px;
+}
+.from_call>form{
+    margin-top: 40px;
+}
+.from_call #tijiao{
+    border: 0;
+    outline: none;
+    width: 100px;
+    height: 50px;
+    -webkit-animation-name: greenPulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    bottom:30px;
+    left: 50%;
+    margin-left: -50px;
+
+}
+@-webkit-keyframes greenPulse {
+    from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+    50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }
+    to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+}
+.plate5{
+    width: 100%;
+    position: relative;
+    background: url("../img/kj/gege.png");
+}
+.plate5>h2{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.plate5_nav{
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    /*background: darkblue;*/
+}
+.plate5_nav>ul{
+
+    margin: 30px auto;
+    width: 400px;
+    height: 15px;
+k}
+.plate5_nav li{
+    width: 70px;
+    height: 15px;
+    border-radius: 10px;
+    background: #000;
+    cursor: pointer;
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    animation: li linear 1s 0s infinite;
+}
+@keyframes li {
+    0% {
+        box-shadow: inset -1px 1px 3px 2px #444444, inset 1px -1px 3px 2px #222222, 0 0 0px 0 #b2ff1a;
+    }
+    50% {
+        box-shadow: inset -1px 1px 3px 2px #444444, inset 1px -1px 3px 2px #222222, 0 0 20px 0 #1affff;
+    }
+    100% {
+        box-shadow: inset -1px 1px 3px 2px #444444, inset 1px -1px 3px 2px #222222, 0 0 0px 0 #b2ff1a;
+    }
+}
+.plate5_nav li:hover{
+    animation:none;
+}
+.plate5_nav .active{
+    animation:none;
+
+}
+.plate5_con{
+    width: 1000px;
+    margin: 0 auto;
+    height: 400px;
+    position: relative;
+}
+
+
+
+.pic{
+    background: url('../img/kj/xiangce.png') no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
+}
+.pic:nth-child(2){
+    background: url('../img/kj/jsb.png') no-repeat;
+    background-size: contain;
+}
+.pic:nth-child(3){
+    background: url('../img/kj/ss.png') no-repeat;
+
+    background-size: contain;
+}
+.pic:nth-child(4){
+    background: url('../img/kj/fx (3).png') no-repeat;
+    background-size: contain;
+}
+.pic:nth-child(5){
+    background: url('../img/kj/music.png') no-repeat;
+    background-size: contain;
+}
+
+.plate_li{
+    width: 100px;
+    height: 100px;
+   position: relative;
+    background-size: cover;
+
+}
+.king{
+    width: 300px;
+    height: 400px;
+    background: rgba(0,0,0,.5);
+    border-radius:20px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 6px 4px #000;
+    position: absolute;
+    left:50%;
+    margin-left: -150px;
+    display: none;
+}
+
+
+
+
+.h1{
+    background: url('../img/kj/xiangce.png') no-repeat;
+    background-size: contain;
+}
+.h2{
+    background: url('../img/kj/jsb.png') no-repeat;
+    background-size: contain;
+}
+.h3{
+   background: url('../img/kj/ss.png') no-repeat;
+
+    background-size: contain;
+}
+.h4{
+    background: url('../img/kj/fx (3).png') no-repeat;
+    background-size: contain;
+}
+.h5{
+    background: url('../img/kj/music.png') no-repeat;
+    background-size: contain;
+}
+
+.king>.plate_li{
+    margin: 0 auto;
+}
+.text>h3{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+.text>p{
+    color: #ccc;
+    /*letter-spacing:2px;*/
+    text-indent: 2em;
+    line-height: 20px;
+
+}
+
